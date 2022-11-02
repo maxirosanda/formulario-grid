@@ -69,9 +69,17 @@ h1{
     border-bottom: 1px solid rgb(134, 10, 10);
     margin-top: 10px;
     color:white;
+    font-family: inherit;
 
 }
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    box-shadow:0 0 0 30px rgb(34, 34,34) inset !important;
+    -webkit-text-fill-color: white;
+    
 
+}
 @media(max-width:576px){
     .formulario{
         grid-template-columns: 1fr;
